@@ -25,6 +25,7 @@ public class TestaInsercao {
 			System.out.println(id);
 		}
 		
+		con.close();
 	}
 
 }
