@@ -16,6 +16,8 @@ public class TestaRemocao {
 		int linhas = pst.getUpdateCount();
 		
 		System.out.println("Quantidade de linhas modificadas: " + linhas);
+		
+		conn.close();
 
 
 	}
