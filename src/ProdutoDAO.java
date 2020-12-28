@@ -34,7 +34,7 @@ public class ProdutoDAO {
 
 	public List<Produto> listar() throws SQLException {
 
-		List<Produto> produtos = new ArrayList();
+		List<Produto> produtos = new ArrayList<Produto>();
 
 		String sql = "SELECT * FROM PRODUTO;";
 		try (PreparedStatement pstm = connection.prepareStatement(sql)) {
