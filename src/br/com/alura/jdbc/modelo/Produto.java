@@ -1,3 +1,4 @@
+package br.com.alura.jdbc.modelo;
 
 public class Produto {
 	private int id;

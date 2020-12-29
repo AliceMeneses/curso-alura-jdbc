@@ -1,3 +1,4 @@
+package br.com.alura.jdbc.modelo;
 import java.util.ArrayList;
 import java.util.List;
 

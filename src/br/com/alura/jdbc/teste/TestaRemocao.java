@@ -1,6 +1,9 @@
+package br.com.alura.jdbc.teste;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+
+import br.com.alura.jdbc.factory.ConnectionFactory;
 
 public class TestaRemocao {
 

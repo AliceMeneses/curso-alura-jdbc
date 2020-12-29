@@ -1,4 +1,7 @@
+package br.com.alura.jdbc.teste;
 import java.sql.SQLException;
+
+import br.com.alura.jdbc.factory.ConnectionFactory;
 
 public class TestaConexao2 {
 

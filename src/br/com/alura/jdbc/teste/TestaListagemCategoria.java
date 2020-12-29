@@ -1,6 +1,12 @@
+package br.com.alura.jdbc.teste;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
+
+import br.com.alura.jdbc.DAO.CategoriaDAO;
+import br.com.alura.jdbc.factory.ConnectionFactory;
+import br.com.alura.jdbc.modelo.Categoria;
+import br.com.alura.jdbc.modelo.Produto;
 
 public class TestaListagemCategoria {
 
